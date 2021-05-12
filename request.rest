@@ -1,0 +1,22 @@
+POST http://localhost:3000/api/user/register
+Content-Type: application/json
+
+{
+    "name": "sourav",
+    "email": "sourav@gmail.com",
+    "password": "sourav1234"
+}
+
+###
+POST  http://localhost:3000/api/user/login
+Content-Type: application/json
+
+{
+    "email": "sourav@gmail.com",
+    "password": "sourav1234"
+}
+
+###
+GET   http://localhost:3000/api/posts/
+auth-token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDliODIyMTBlNTQ0YzAwNzBiYWZmZGUiLCJpYXQiOjE2MjA4MDQzMzN9.lc8pvyIF_IaPMrECUXqsDfcNCcwaXxwJw-3xqYe7Lpk
+
